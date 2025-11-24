@@ -13,5 +13,4 @@ namespace Task_3
             Console.WriteLine("Nepali Teacher teaches in Nepali language");
         }
     }
-
 }

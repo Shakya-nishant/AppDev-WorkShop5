@@ -20,12 +20,7 @@ namespace Task_3
 
         public void Print(string message, int count)
         {
-            for (int i = 1; i <= count; i++)
-            {
-                Console.WriteLine($"{i}. {message}");
-            }
+            Console.WriteLine($"Message: {message}, Count: {count}");
         }
     }
-
-
 }

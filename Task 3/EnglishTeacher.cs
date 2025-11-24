@@ -8,7 +8,7 @@ namespace Task_3
 {
     public class EnglishTeacher : Teacher
     {
-        // No override needed
+        // Inherits Teaching() from base class
+        // No override needed - will use base implementation
     }
-
 }

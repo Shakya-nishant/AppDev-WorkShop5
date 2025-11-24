@@ -10,16 +10,16 @@ namespace Task_3
     {
         public string Name { get; set; }
 
+        // Virtual method that can be overridden
         public virtual void Teaching()
         {
             Console.WriteLine("Teacher teaches in English");
         }
 
-        public sealed void SalaryInfo()
+        // Final method - cannot be overridden
+        public void SalaryInfo()
         {
-            Console.WriteLine("Teacher salary information cannot be overridden.");
+            Console.WriteLine("Salary is paid monthly based on government scale.");
         }
     }
-
-
 }
